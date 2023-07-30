@@ -3,7 +3,7 @@ TocSecur is an API-based real-time toxic comment detection using Bi-LSTM and dro
 # Problem Statement
 To detect different types of toxic comments like threats, obscenity, insults, and identity-based hate. First, we will take the dataset from Kaggle, which consists of Twitter comments, and then we will clear the data of stop words and then train the model to classify the comment in each category.
 # Step-wise Algorithm
-• Import sequential API - from tensorflow.keras.models import Sequential
+• Import sequential API - from tensorflow.keras.models import Sequential <br>
 • Import all the necessary layers to build the deep neural network - from tensorflow.keras.layers import LSTM, Dropout, Bidirectional, Dense, Embedding
 • Instantiate the sequential API - model = sequential()
 • Add the Embedding layer using model.add function
